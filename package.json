@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "practice purpose created application using node,react,mongo,express",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev":"nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaKolte/mern_stack_practice_app.git"
+  },
+  "author": "Nikita Kolte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikitaKolte/mern_stack_practice_app/issues"
+  },
+  "homepage": "https://github.com/NikitaKolte/mern_stack_practice_app#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2",
+    "nodemon": "^2.0.20"
+  }
+}
